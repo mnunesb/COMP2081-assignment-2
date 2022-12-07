@@ -28,13 +28,15 @@
  /* Above the Fold */
  .AboveTheFold{
   display: flex;
-  margin: 30px 60px 0px;
+  margin: 60px 100px 0px;
+  justify-content: center;
  }
 
  /* Above the fold image */
 .AboveTheFold img{
   box-shadow: 5px 10px 20px black;
   max-width: 80%;
+  max-height: 400px;
 }
 
 /* Above the fold text and button */
@@ -86,12 +88,32 @@
 
  /* Carousel */
  #carouselExampleIndicators{
-  max-width: 20%;
+  max-width: 300px;
  }
 
  .container{
   display: flex;
+  justify-content: center;
  }
+
  .carousel-inner img{
-  height: 420px;
+  max-height: 420px;
+  min-width: 150px;
+ }
+
+ /* About the Author */
+ .authorcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 30px;
+  justify-content: center;
+ }
+
+ .authorcontainer img{
+  max-height: 300px;
+ }
+
+ #authortab{
+  max-width: 60%;
+  margin-left: 30px;
  }
