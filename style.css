@@ -1,6 +1,21 @@
+/* Full Page CSS */
 body {
   background-image: url("img/background.png");
   
+}
+
+h1,h2,h3,h4{
+  font-family: 'Bebas Neue', cursive;
+}
+
+p, ul, li, a{
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 1em;
+}
+
+li{
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 1em;
 }
 
 button{
